@@ -12,6 +12,18 @@ beforeEach("Cookies accept", async () => {
     await page.open();
     page.closeCookies();
 });
+describe("Logging in", () => {
+    it("should be Logged in with valid credentials", async () => {
+        await SignInPage.open("https://portal.telnyx.com/#/login/sign-in");
+        await SignInPage.doLogin(users.defaultProfileUser);
+        await expect(browser).toHaveUrlContaining("/#/app/home");
+    });
+    it("should be Logged in with Microsoft", async () => {
+        await SignInPage.open("https://portal.telnyx.com/#/login/sign-in");
+        await SignInPage.doMicrosoftLogin(users.microsoftUser);
+        await expect(browser).toHaveUrlContaining("/#/app/home");
+    });
+});
 
 describe("UI", () => {
     it("should verify drop-down menu on Product", async () => {
@@ -99,15 +111,3 @@ describe("UI", () => {
     });
 });
 
-describe("Logging in", () => {
-    it("should be Logged in with valid credentials", async () => {
-        await SignInPage.open("https://portal.telnyx.com/#/login/sign-in");
-        await SignInPage.doLogin(users.defaultProfileUser);
-        await expect(browser).toHaveUrlContaining("/#/app/home");
-    });
-    xit("should be Logged in with Microsoft", async () => {
-        await SignInPage.open("https://portal.telnyx.com/#/login/sign-in");
-        await SignInPage.doMicrosoftLogin(users.microsoftUser);
-        await expect(browser).toHaveUrlContaining("/#/app/home");
-    });
-});
