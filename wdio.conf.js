@@ -17,7 +17,7 @@ exports.config = {
     logLevel: "debug",
     bail: 0,
     baseUrl: "https://telnyx.com/",
-    waitforTimeout: 40000,
+    waitforTimeout: 60000,
     connectionRetryTimeout: 120000,
     services: ["chromedriver"],
     framework: "mocha",
