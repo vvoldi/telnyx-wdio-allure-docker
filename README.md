@@ -1,4 +1,4 @@
-# WebdriverIO + Allure report + Docker test framefork for [telnyx.com](https://telnyx.com);
+# WebdriverIO + Allure report + Docker test framefork for [telnyx.com](https://telnyx.com)
 This project include:
 * Page-object model
 * Allure reporter;
