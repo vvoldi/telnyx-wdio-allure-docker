@@ -1,0 +1,31 @@
+{
+    "name": "webdriverio-tests",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+        "@babel/cli": "^7.19.3",
+        "@babel/core": "^7.19.6",
+        "@babel/preset-env": "^7.19.4",
+        "@babel/register": "^7.18.9",
+        "@wdio/allure-reporter": "^7.25.2",
+        "@wdio/cli": "^7.25.2",
+        "@wdio/local-runner": "^7.25.2",
+        "@wdio/mocha-framework": "^7.25.2",
+        "@wdio/selenium-standalone-service": "^7.25.1",
+        "@wdio/spec-reporter": "^7.25.1",
+        "chromedriver": "106.0.1",
+        "wdio-chromedriver-service": "^8.0.0",
+        "wdio-docker-service": "^3.2.1"
+    },
+    "scripts": {
+        "test": "wdio run wdio.conf.js",
+        "report": "npx allure generate allure-results/ --clean && npx allure open",
+        "report:generate": "npx allure generate allure-results/ --clean",
+        "report:open:": "npx allure open",
+        "test:chrome": "npx wdio run wdio_chrome.conf.js",
+        "test:edge": "npx wdio run wdio_edge.conf.js",
+        "test:firefox": "npx wdio run wdio_firefox.conf.js",
+        "test:single-file": "npx run wdio.conf.js --spec ./test/specs/tests.js",
+        "test:docker": "docker-compose -f ./dockercompose.yml up && npx wdio run wdio_docker.conf.js"
+    }
+}

@@ -1,0 +1,1 @@
+"https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=5c96c879-cc31-4331-be97-f2f40a245bce&redirect_uri=https%3A%2F%2Fapi.telnyx.com%2Fusers%2Fauth%2Fmicrosoft_graph%2Fcallback&response_type=code&scope=openid+email+profile+User.Read&state=9737698a979fd9a75d492e16d237088e3bf432495dd53b06&sso_reload=true"

@@ -1,0 +1,60 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666536554055' stop='1666536559376'>
+    <name>My application</name>
+    <title>My application</title>
+    <test-cases>
+        <test-case start='1666536554055' status='broken' stop='1666536559375'>
+            <name>should be opened Main page from Contact Us Page</name>
+            <title>should be opened Main page from Contact Us Page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps>
+                <step start='1666536554057' status='passed' stop='1666536556344'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='dbc38e77-b22e-44b9-95d7-153a24b251ef-attachment.json' type='application/json' size='34'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1666536556345' status='broken' stop='1666536559375'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='00cd4a90-1328-4313-8cb1-dc8727469325-attachment.json' type='application/json' size='81'/>
+                    </attachments>
+                    <steps>
+                        <step start='1666536556350' status='passed' stop='1666536556384'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='24eef38c-3089-4980-9c68-5f73655c8ce9-attachment.json' type='application/json' size='44'/>
+                                <attachment title='Response' source='317aff18-e8fd-44c4-9aba-e698feb886fd-attachment.json' type='application/json' size='83'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1666536556390' status='passed' stop='1666536559373'>
+                            <name>POST /session/:sessionId/element/7a19237a-9eea-4b93-b03f-f4cd8de4a6e1/click</name>
+                            <title>POST /session/:sessionId/element/7a19237a-9eea-4b93-b03f-f4cd8de4a6e1/click</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>_ContactUsPage.default.elements.logo.click is not a function</message>
+                <stack-trace>TypeError: _ContactUsPage.default.elements.logo.click is not a function
+                    at Context.&lt;anonymous> (C:\Users\98kov\Desktop\LuxeQuality\telnyx-wdio-allure-docker\test\specs\/tests.js:39:43)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

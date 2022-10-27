@@ -1,0 +1,20 @@
+{
+    "contactUsUser": {
+        "reason": "Support",
+        "firstName": "Jack",
+        "lastName": "Brown",
+        "email": "jack_brown@gmail.com",
+        "phoneCode": "+380",
+        "phone": "678888888",
+        "website": "https://mycompany.com",
+        "addInfo": "Hello, I am just tester. Sorry for disturb"
+    },
+    "defaultProfileUser": {
+        "email": "98.kovalenko@gmail.com",
+        "pass": "TesT321TesT."
+    },
+    "microsoftUser":{
+        "email": "98.kovalenko@gmail.com",
+        "pass": "TesT321TesT."
+    }
+}

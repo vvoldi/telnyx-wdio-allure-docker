@@ -1,0 +1,124 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666527520808' stop='1666527582890'>
+    <name>My application</name>
+    <title>My application</title>
+    <test-cases>
+        <test-case start='1666527520809' status='broken' stop='1666527582889'>
+            <name>should verify drop-down menu on Product</name>
+            <title>should verify drop-down menu on Product</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps>
+                <step start='1666527520811' status='passed' stop='1666527522866'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='1e79e828-e03e-4abd-bcae-f5ec888ff257-attachment.json' type='application/json' size='34'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1666527522867' status='passed' stop='1666527523029'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='069e5d56-07f4-4180-80d3-064d1e51b057-attachment.json' type='application/json' size='81'/>
+                        <attachment title='Response' source='87d4bc31-3428-4932-8aa4-e8ac89649344-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps>
+                        <step start='1666527522875' status='passed' stop='1666527523005'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='2bbb70fe-15dd-40a0-8a04-6ff8f1f750aa-attachment.json' type='application/json' size='81'/>
+                                <attachment title='Response' source='3d37255a-4736-4597-a163-cc1a5be8b14f-attachment.json' type='application/json' size='730'/>
+                            </attachments>
+                            <steps>
+                                <step start='1666527522879' status='passed' stop='1666527522919'>
+                                    <name>POST /session/:sessionId/elements</name>
+                                    <title>POST /session/:sessionId/elements</title>
+                                    <attachments>
+                                        <attachment title='Request' source='4867d4fa-eecc-4529-b0c1-0630668301d3-attachment.json' type='application/json' size='97'/>
+                                        <attachment title='Response' source='077ba569-001a-44bb-8a28-82f991ede1f1-attachment.json' type='application/json' size='730'/>
+                                    </attachments>
+                                    <steps>
+                                        <step start='1666527522886' status='passed' stop='1666527522900'>
+                                            <name>POST /session/:sessionId/element</name>
+                                            <title>POST /session/:sessionId/element</title>
+                                            <attachments>
+                                                <attachment title='Request' source='4491fe77-1ed8-4cae-a5e7-f724c81eaa2e-attachment.json' type='application/json' size='81'/>
+                                                <attachment title='Response' source='cecc1ea3-d6d2-4992-905d-b642a3f5b190-attachment.json' type='application/json' size='83'/>
+                                            </attachments>
+                                            <steps/>
+                                        </step>
+                                        <step start='1666527522907' status='passed' stop='1666527522911'>
+                                            <name>POST /session/:sessionId/element/1eefeeff-4d4d-43d5-beb6-370aa0b6ab63/click</name>
+                                            <title>POST /session/:sessionId/element/1eefeeff-4d4d-43d5-beb6-370aa0b6ab63/click</title>
+                                            <attachments>
+                                                <attachment title='Response' source='bb85d233-7a19-4533-a1f0-e765f27465c5-attachment.json' type='application/json' size='83'/>
+                                            </attachments>
+                                            <steps/>
+                                        </step>
+                                    </steps>
+                                </step>
+                                <step start='1666527522928' status='passed' stop='1666527522936'>
+                                    <name>POST /session/:sessionId/elements</name>
+                                    <title>POST /session/:sessionId/elements</title>
+                                    <attachments>
+                                        <attachment title='Request' source='a37aff75-76ac-47ba-97bd-cec98bce9675-attachment.json' type='application/json' size='97'/>
+                                        <attachment title='Response' source='045ba3de-0c0a-4418-99d2-022da5adecca-attachment.json' type='application/json' size='83'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1666527522938' status='passed' stop='1666527522976'>
+                                    <name>GET /session/:sessionId/element/88fbeec5-b085-4d87-8745-2073bf3a62bb/rect</name>
+                                    <title>GET /session/:sessionId/element/88fbeec5-b085-4d87-8745-2073bf3a62bb/rect</title>
+                                    <attachments/>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1666527523030' status='passed' stop='1666527523044'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='12a67c70-6b6a-4dde-aa6d-347b27ce0fa5-attachment.json' type='application/json' size='158'/>
+                        <attachment title='Response' source='ca754117-eed2-4d35-80db-6ddaba5e371b-attachment.json' type='application/json' size='34'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1666527523044' status='passed' stop='1666527523105'>
+                    <name>POST /session/:sessionId/actions</name>
+                    <title>POST /session/:sessionId/actions</title>
+                    <attachments>
+                        <attachment title='Request' source='50b01ba1-e063-46c1-ab9e-a2af21fe2c70-attachment.json' type='application/json' size='287'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1666527523105' status='passed' stop='1666527523109'>
+                    <name>DELETE /session/:sessionId/actions</name>
+                    <title>DELETE /session/:sessionId/actions</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "My application should verify drop-down menu on Product" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\98kov\Desktop\LuxeQuality\telnyx-wdio-allure-docker\test\specs\example.e2e.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "My application should verify drop-down menu on Product" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\98kov\Desktop\LuxeQuality\telnyx-wdio-allure-docker\test\specs\example.e2e.js)
+                    at createTimeoutError (C:\Users\98kov\Desktop\LuxeQuality\telnyx-wdio-allure-docker\node_modules\mocha\lib\errors.js:498:15)
+                    at Test.Runnable._timeoutError (C:\Users\98kov\Desktop\LuxeQuality\telnyx-wdio-allure-docker\node_modules\mocha\lib\runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (C:\Users\98kov\Desktop\LuxeQuality\telnyx-wdio-allure-docker\node_modules\mocha\lib\runnable.js:246:24)
+                    at listOnTimeout (node:internal/timers:559:17)
+                    at processTimers (node:internal/timers:502:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

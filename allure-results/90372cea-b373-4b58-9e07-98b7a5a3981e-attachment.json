@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "li[class*=\"khahzD\"]:nth-child(1) div[class*=bjOBlW] span"
+}

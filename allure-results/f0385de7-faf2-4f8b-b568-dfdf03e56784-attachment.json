@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"button[aria-label=\"close and deny\"]\"}\n  (Session info: chrome=106.0.5249.119)",
+  "stacktrace": "Backtrace:\n\tOrdinal0 [0x01091ED3+2236115]\n\tOrdinal0 [0x010292F1+1807089]\n\tOrdinal0 [0x00F366FD+812797]\n\tOrdinal0 [0x00F655DF+1005023]\n\tOrdinal0 [0x00F657CB+1005515]\n\tOrdinal0 [0x00F97632+1209906]\n\tOrdinal0 [0x00F81AD4+1120980]\n\tOrdinal0 [0x00F959E2+1202658]\n\tOrdinal0 [0x00F818A6+1120422]\n\tOrdinal0 [0x00F5A73D+960317]\n\tOrdinal0 [0x00F5B71F+964383]\n\tGetHandleVerifier [0x0133E7E2+2743074]\n\tGetHandleVerifier [0x013308D4+2685972]\n\tGetHandleVerifier [0x01122BAA+532202]\n\tGetHandleVerifier [0x01121990+527568]\n\tOrdinal0 [0x0103080C+1837068]\n\tOrdinal0 [0x01034CD8+1854680]\n\tOrdinal0 [0x01034DC5+1854917]\n\tOrdinal0 [0x0103ED64+1895780]\n\tBaseThreadInitThunk [0x76487BA9+25]\n\tRtlInitializeExceptionChain [0x7781BB9B+107]\n\tRtlClearBits [0x7781BB1F+191]\n"
+}

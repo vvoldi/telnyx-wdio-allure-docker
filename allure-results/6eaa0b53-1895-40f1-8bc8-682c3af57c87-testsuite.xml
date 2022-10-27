@@ -1,0 +1,78 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666455476371' stop='1666455478529'>
+    <name>My application</name>
+    <title>My application</title>
+    <test-cases>
+        <test-case start='1666455476371' status='failed' stop='1666455478516'>
+            <name>should verify drop-down menu on Product</name>
+            <title>should verify drop-down menu on Product</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps>
+                <step start='1666455476372' status='passed' stop='1666455478489'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='a1c673d4-6743-4a07-b8a2-08824e64c910-attachment.json' type='application/json' size='34'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1666455478490' status='failed' stop='1666455478516'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='e6073019-d0c0-4364-92eb-a53f6ddb05b1-attachment.json' type='application/json' size='81'/>
+                    </attachments>
+                    <steps>
+                        <step start='1666455478496' status='failed' stop='1666455478516'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='ff88896d-bbce-49eb-b196-ac96918ceab9-attachment.json' type='application/json' size='81'/>
+                            </attachments>
+                            <steps>
+                                <step start='1666455478501' status='failed' stop='1666455478516'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='08640ecc-3fed-4779-abc7-dcb8ac245575-attachment.json' type='application/json' size='97'/>
+                                    </attachments>
+                                    <steps>
+                                        <step start='1666455478511' status='failed' stop='1666455478516'>
+                                            <name>POST /session/:sessionId/element</name>
+                                            <title>POST /session/:sessionId/element</title>
+                                            <attachments>
+                                                <attachment title='Request' source='f61d8637-4673-43b0-8d5e-eec325d05d71-attachment.json' type='application/json' size='81'/>
+                                            </attachments>
+                                            <steps/>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1666455478525' status='undefined'>
+                    <name>POST /session/:sessionId/element/fe879d34-2180-4fa5-abb2-441ac5d31b1e/click</name>
+                    <title>POST /session/:sessionId/element/fe879d34-2180-4fa5-abb2-441ac5d31b1e/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='b2da46fe-6781-4356-a104-0351ce7b231a-attachment.json' type='application/json' size='83'/>
+            </attachments>
+            <failure>
+                <message>expect(...).isVisible is not a function</message>
+                <stack-trace>TypeError: expect(...).isVisible is not a function
+                    at Context.&lt;anonymous> (C:\Users\98kov\Desktop\LuxeQuality\telnyx-wdio-allure-docker\test\specs\/example.e2e.js:14:54)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

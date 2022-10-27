@@ -1,0 +1,122 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666653495389' stop='1666653501354'>
+    <name>My application</name>
+    <title>My application</title>
+    <test-cases>
+        <test-case start='1666653495389' status='broken' stop='1666653501351'>
+            <name>should be Logged in</name>
+            <title>should be Logged in</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps>
+                <step start='1666653495391' status='passed' stop='1666653496803'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='d241ddc9-3b2f-4f82-9148-45b1c761f3e3-attachment.json' type='application/json' size='34'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1666653496805' status='broken' stop='1666653501351'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='9a984394-acd3-4811-a07a-e899630a66b7-attachment.json' type='application/json' size='81'/>
+                    </attachments>
+                    <steps>
+                        <step start='1666653496809' status='passed' stop='1666653496826'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='4262a7a6-0d25-421b-b4a4-34977d180895-attachment.json' type='application/json' size='56'/>
+                                <attachment title='Response' source='a828c429-c355-4808-9ca7-fabfbfbaa128-attachment.json' type='application/json' size='83'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1666653496831' status='passed' stop='1666653501172'>
+                            <name>POST /session/:sessionId/element/9d1a1b35-a928-48c3-9aa8-3151225454ca/click</name>
+                            <title>POST /session/:sessionId/element/9d1a1b35-a928-48c3-9aa8-3151225454ca/click</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1666653501173' status='passed' stop='1666653501313'>
+                            <name>GET /session/:sessionId/window/handles</name>
+                            <title>GET /session/:sessionId/window/handles</title>
+                            <attachments>
+                                <attachment title='Response' source='cf7cee28-bb7a-4dcd-ba9e-e0fd0d9a0350-attachment.json' type='application/json' size='43'/>
+                            </attachments>
+                            <steps>
+                                <step start='1666653501186' status='passed' stop='1666653501195'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='38e7fa2f-2eca-4fa4-a4b0-0923b6593b05-attachment.json' type='application/json' size='81'/>
+                                        <attachment title='Response' source='098cf7c0-5b40-4f4a-9928-27dea5722f2c-attachment.json' type='application/json' size='49'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1666653501196' status='passed' stop='1666653501210'>
+                                    <name>POST /session/:sessionId/window</name>
+                                    <title>POST /session/:sessionId/window</title>
+                                    <attachments>
+                                        <attachment title='Request' source='87c8b9ac-caca-4e6d-95f5-56232d73380a-attachment.json' type='application/json' size='59'/>
+                                        <attachment title='Response' source='969b5342-cfa8-4189-9b8f-39504a14d0ec-attachment.json' type='application/json' size='1027'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1666653501217' status='passed' stop='1666653501226'>
+                                    <name>POST /session/:sessionId/elements</name>
+                                    <title>POST /session/:sessionId/elements</title>
+                                    <attachments>
+                                        <attachment title='Request' source='d319adf4-16ef-4b44-9dd9-36dbc0bf57dc-attachment.json' type='application/json' size='81'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1666653501226' status='passed' stop='1666653501261'>
+                                    <name>GET /session/:sessionId/url</name>
+                                    <title>GET /session/:sessionId/url</title>
+                                    <attachments>
+                                        <attachment title='Response' source='8b20fd5f-9558-4402-9fca-479a864e3f3e-attachment.json' type='application/json' size='2'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                            </steps>
+                        </step>
+                        <step start='1666653501313' status='passed' stop='1666653501325'>
+                            <name>GET /session/:sessionId/title</name>
+                            <title>GET /session/:sessionId/title</title>
+                            <attachments>
+                                <attachment title='Response' source='fe9458b1-e5bb-404a-a67e-8387aba2523f-attachment.json' type='application/json' size='32'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1666653501326' status='passed' stop='1666653501343'>
+                            <name>POST /session/:sessionId/execute/sync</name>
+                            <title>POST /session/:sessionId/execute/sync</title>
+                            <attachments>
+                                <attachment title='Request' source='7ec6c94e-0cb7-4237-a220-70a31550cf5f-attachment.json' type='application/json' size='81'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>No window found with title, url or name matching "accounts.google.com"</message>
+                <stack-trace>Error: No window found with title, url or name matching "accounts.google.com"
+                    at Browser.switchWindow (C:\Users\98kov\Desktop\LuxeQuality\telnyx-wdio-allure-docker\node_modules\webdriverio\build\commands\browser\switchWindow.js:71:11)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Browser.wrapCommandFn (C:\Users\98kov\Desktop\LuxeQuality\telnyx-wdio-allure-docker\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at SignInPage.doLogin (C:\Users\98kov\Desktop\LuxeQuality\telnyx-wdio-allure-docker\test\pageobjects\/SignInPage.js:21:9)
+                    at Context.&lt;anonymous> (C:\Users\98kov\Desktop\LuxeQuality\telnyx-wdio-allure-docker\test\specs\/tests.js:91:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

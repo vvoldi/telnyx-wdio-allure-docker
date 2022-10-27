@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "(//div[contains(@class, 'tx-1XyETB')])[2]"
+}

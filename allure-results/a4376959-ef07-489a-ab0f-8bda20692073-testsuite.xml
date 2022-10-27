@@ -1,0 +1,119 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666636081037' stop='1666636087651'>
+    <name>My application</name>
+    <title>My application</title>
+    <test-cases>
+        <test-case start='1666636081037' status='broken' stop='1666636087650'>
+            <name>should be filtered by WhatsApp on Release Notes Page</name>
+            <title>should be filtered by WhatsApp on Release Notes Page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps>
+                <step start='1666636081039' status='passed' stop='1666636086203'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='8b25bf60-97ad-4a57-9c4c-be4f362ffe09-attachment.json' type='application/json' size='34'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1666636086204' status='broken' stop='1666636087650'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='eeb91021-d4e3-4a7e-89f5-cfc2a819910b-attachment.json' type='application/json' size='81'/>
+                    </attachments>
+                    <steps>
+                        <step start='1666636086209' status='passed' stop='1666636086237'>
+                            <name>POST /session/:sessionId/url</name>
+                            <title>POST /session/:sessionId/url</title>
+                            <attachments>
+                                <attachment title='Request' source='27911fac-34b9-4983-a82b-57489b0b05d2-attachment.json' type='application/json' size='47'/>
+                                <attachment title='Response' source='bd4f4c90-4247-43ab-a17f-35c7970e2221-attachment.json' type='application/json' size='83'/>
+                            </attachments>
+                            <steps/>
+                        </step>
+                        <step start='1666636086243' status='passed' stop='1666636087445'>
+                            <name>POST /session/:sessionId/element/46b6bed1-d81a-45e4-bf51-6d2e64eb4a91/click</name>
+                            <title>POST /session/:sessionId/element/46b6bed1-d81a-45e4-bf51-6d2e64eb4a91/click</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1666636087445' status='broken' stop='1666636087650'>
+                            <name>POST /session/:sessionId/element</name>
+                            <title>POST /session/:sessionId/element</title>
+                            <attachments>
+                                <attachment title='Request' source='ac07ad16-1f78-4a06-825f-5c03818fa304-attachment.json' type='application/json' size='53'/>
+                            </attachments>
+                            <steps>
+                                <step start='1666636087456' status='passed' stop='1666636087465'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='1c5c7ead-fb1d-4285-94b8-a29712e1a25f-attachment.json' type='application/json' size='81'/>
+                                        <attachment title='Response' source='b59b965b-b9ab-4e1f-a8ec-fbfe89a3662a-attachment.json' type='application/json' size='83'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1666636087468' status='passed' stop='1666636087473'>
+                                    <name>POST /session/:sessionId/element/fe11dc59-e73f-4243-841b-dbd7cd72837e/click</name>
+                                    <title>POST /session/:sessionId/element/fe11dc59-e73f-4243-841b-dbd7cd72837e/click</title>
+                                    <attachments>
+                                        <attachment title='Response' source='32218b13-c237-4e4a-8524-ff0e9a7e4d6c-attachment.json' type='application/json' size='83'/>
+                                    </attachments>
+                                    <steps/>
+                                </step>
+                                <step start='1666636087475' status='broken' stop='1666636087650'>
+                                    <name>POST /session/:sessionId/element/46b6bed1-d81a-45e4-bf51-6d2e64eb4a91/click</name>
+                                    <title>POST /session/:sessionId/element/46b6bed1-d81a-45e4-bf51-6d2e64eb4a91/click</title>
+                                    <attachments/>
+                                    <steps>
+                                        <step start='1666636087493' status='passed' stop='1666636087511'>
+                                            <name>POST /session/:sessionId/element</name>
+                                            <title>POST /session/:sessionId/element</title>
+                                            <attachments>
+                                                <attachment title='Request' source='7ed2d4ac-6d05-4b9d-9746-1d965769d6de-attachment.json' type='application/json' size='81'/>
+                                                <attachment title='Response' source='1c812293-8a45-4022-8ae2-c1a9152767b0-attachment.json' type='application/json' size='83'/>
+                                            </attachments>
+                                            <steps/>
+                                        </step>
+                                        <step start='1666636087512' status='passed' stop='1666636087618'>
+                                            <name>POST /session/:sessionId/element/2f22c217-2f99-4c41-8301-c961db5f0e16/click</name>
+                                            <title>POST /session/:sessionId/element/2f22c217-2f99-4c41-8301-c961db5f0e16/click</title>
+                                            <attachments/>
+                                            <steps/>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element not interactable
+                  (Session info: chrome=106.0.5249.119)</message>
+                <stack-trace>element not interactable: element not interactable
+                  (Session info: chrome=106.0.5249.119)
+                    at getErrorFromResponseBody (C:\Users\98kov\Desktop\LuxeQuality\telnyx-wdio-allure-docker\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Users\98kov\Desktop\LuxeQuality\telnyx-wdio-allure-docker\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at Element.wrapCommandFn (C:\Users\98kov\Desktop\LuxeQuality\telnyx-wdio-allure-docker\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.wrapCommandFn (C:\Users\98kov\Desktop\LuxeQuality\telnyx-wdio-allure-docker\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\98kov\Desktop\LuxeQuality\telnyx-wdio-allure-docker\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Users\98kov\Desktop\LuxeQuality\telnyx-wdio-allure-docker\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.wrapCommandFn (C:\Users\98kov\Desktop\LuxeQuality\telnyx-wdio-allure-docker\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Element.elementErrorHandlerCallbackFn (C:\Users\98kov\Desktop\LuxeQuality\telnyx-wdio-allure-docker\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at Element.wrapCommandFn (C:\Users\98kov\Desktop\LuxeQuality\telnyx-wdio-allure-docker\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at Context.&lt;anonymous> (C:\Users\98kov\Desktop\LuxeQuality\telnyx-wdio-allure-docker\test\specs\/tests.js:84:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
