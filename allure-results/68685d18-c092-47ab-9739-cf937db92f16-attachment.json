@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"input[name=\"loginfmt\"]\"}\n  (Session info: chrome=106.0.5249.119)",
-  "stacktrace": "Backtrace:\n\tOrdinal0 [0x00681ED3+2236115]\n\tOrdinal0 [0x006192F1+1807089]\n\tOrdinal0 [0x005266FD+812797]\n\tOrdinal0 [0x005555DF+1005023]\n\tOrdinal0 [0x005557CB+1005515]\n\tOrdinal0 [0x00587632+1209906]\n\tOrdinal0 [0x00571AD4+1120980]\n\tOrdinal0 [0x005859E2+1202658]\n\tOrdinal0 [0x005718A6+1120422]\n\tOrdinal0 [0x0054A73D+960317]\n\tOrdinal0 [0x0054B71F+964383]\n\tGetHandleVerifier [0x0092E7E2+2743074]\n\tGetHandleVerifier [0x009208D4+2685972]\n\tGetHandleVerifier [0x00712BAA+532202]\n\tGetHandleVerifier [0x00711990+527568]\n\tOrdinal0 [0x0062080C+1837068]\n\tOrdinal0 [0x00624CD8+1854680]\n\tOrdinal0 [0x00624DC5+1854917]\n\tOrdinal0 [0x0062ED64+1895780]\n\tBaseThreadInitThunk [0x76487BA9+25]\n\tRtlInitializeExceptionChain [0x7781BB9B+107]\n\tRtlClearBits [0x7781BB1F+191]\n"
-}
