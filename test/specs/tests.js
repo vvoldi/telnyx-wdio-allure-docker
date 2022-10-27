@@ -12,6 +12,7 @@ beforeEach("Cookies accept", async () => {
     await page.open();
     page.closeCookies();
 });
+
 describe("Logging in", () => {
     it("should be Logged in with valid credentials", async () => {
         await SignInPage.open("https://portal.telnyx.com/#/login/sign-in");

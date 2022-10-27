@@ -22,6 +22,7 @@ export class SignInPage extends Page {
         await this.elements.emailInput().setValue(user.email);
         await this.elements.passInput().setValue(user.pass);
         await this.elements.logInBTN().click();
+        await browser.setTimeout({ 'pageLoad': 30000 })
     }
     async doMicrosoftLogin(user) {
         await this.elements.microsoftSignInBTN().click();
