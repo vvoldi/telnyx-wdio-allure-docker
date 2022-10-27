@@ -9,7 +9,7 @@ exports.config = {
             maxInstances: 1,
             browserName: "chrome",
             "goog:chromeOptions": {
-                args: ["window-size=1920,1080"],
+                args: ["window-size=1920,1080", "--headless"],
             },
             acceptInsecureCerts: true,
         },
@@ -19,8 +19,7 @@ exports.config = {
     baseUrl: "https://telnyx.com/",
     waitforTimeout: 20000,
     connectionRetryTimeout: 120000,
-    services: ["selenium-standalone"],
-    // services: ["chromedriver"],
+    services: ["chromedriver"],
     framework: "mocha",
     reporters: [
         ["spec", { addConsoleLogs: true }],
