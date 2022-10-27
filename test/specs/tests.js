@@ -95,7 +95,7 @@ describe("UI", () => {
     it("should be checked Facebook social from footer", async () => {
         await MainPage.elements.facebookBTN().click();
         await browser.switchWindow("facebook.com");
-        await expect(browser).toHaveUrl("https://www.facebook.com/Telnyx/");
+        await expect(browser).toHaveUrlContaining("facebook.com");
     });
 });
 
@@ -105,7 +105,7 @@ describe("Logging in", () => {
         await SignInPage.doLogin(users.defaultProfileUser);
         await expect(browser).toHaveUrlContaining("/#/app/home");
     });
-    it("should be Logged in with Microsoft", async () => {
+    xit("should be Logged in with Microsoft", async () => {
         await SignInPage.open("https://portal.telnyx.com/#/login/sign-in");
         await SignInPage.doMicrosoftLogin(users.microsoftUser);
         await expect(browser).toHaveUrlContaining("/#/app/home");
