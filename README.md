@@ -4,6 +4,7 @@ This project uses:
 * Allure reporter;
 * Docker images and docker compose;
 * Configs for different browsers
+* Test cases from [Google spreadsheets](https://docs.google.com/spreadsheets/d/1WjkUGzUpgE8nqUGckOxoAu2xpodSmDYrdbiBHrKxBvI/)
 
 ## Steps to run 
 1. Clone the repository 
